@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+ int base;
+ int power;
+ printf("Введите основание,возводимое в степень: ");
+ scanf("%d", &base);
+ printf("Введите степень: ");
+ scanf("%d", &power);
+ int number;
+ number = pow(base, power);
+ printf("Результат возведения числа в степень равен: %d", number);
+ return 0;
+}
